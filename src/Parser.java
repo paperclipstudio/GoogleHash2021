@@ -29,10 +29,10 @@ public class Parser {
     public Problem parse() throws FileNotFoundException {
         Parser parser = new Parser(file);
 
-        int D, I, S, V, F;
+        int d, I, S, V, F;
         String[][] data = getData();
 
-        D = Integer.parseInt(data[0][0]);
+        d = Integer.parseInt(data[0][0]);
         I =Integer.parseInt(data[0][1]);
         S = Integer.parseInt(data[0][2]);
         V = Integer.parseInt(data[0][3]);
@@ -57,7 +57,7 @@ public class Parser {
             }
             cars.add(new Car(streetsNum, streetNames));
         }
-        return new Problem(D, I, S, V, F, cars, streets);
+        return new Problem(d, I, S, V, F, cars, streets);
     }
 
 
