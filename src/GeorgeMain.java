@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 
-public class Main {
+public class GeorgeMain {
     static int D, I, S, V, F;
 
     static String f1 = "src\\a.txt";
